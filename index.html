@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROCERY</title>
+    <script src="gro.js"></script>
+    <style>
+        body{
+            margin: 5%;
+        background-image: url("Images/img1.jpg");
+        }
+        th, td, p, input, h3 {
+            font: 20px bold;
+            color:darkgreen;
+            
+        }
+        table, th, td {
+            border: solid 1px darkolivegreen;
+            /* align: center; */
+            /* border-collapse: collapse; */
+            margin: auto;
+            padding: 10px 3px;
+            text-align: center;
+            background-color:rgb(1, 8, 8);
+            width: 800px;
+            height: 15px;
+            font-size: large;
+        }
+        h1{
+            color: wheat;
+        }
+        th {
+            font-weight:bold;
+            color:royalblue;
+            border: solid 2px greenyellow;
+        }
+        button{
+            font-size: large;
+        }
+    </style>
+
+</head>
+<body>
+   <h1 style="text-align: center;">Grocery List</h1>
+    
+    <input type='button' onclick='tableFromJson()' 
+    	value='My cart' style="display: block;
+        margin-right: auto;
+        margin-left: auto;"/>
+        
+    <p id='showData'></p>
+    
+    
+</body>
+</html>
